@@ -3,25 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audix - Servicios</title>
+    <title>Audix - Gabinete Audiológico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Audix</h1>
-        <p>Expertos en soluciones de audio</p>
+        <a href="index.html" class="logo">AUDIX</a>
+        <nav>
+            <a href="index.html#nosotros">Nosotros</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="estudios.html">Estudios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Bienvenidos</h2>
-            <p>Esta es nuestra nueva página web en construcción.</p>
-            <button onclick="alert('¡Gracias por contactarnos!')">Saber más</button>
-        </section>
-    </main>
+    <section class="hero">
+        <h1>Volvé a escuchar lo que importa</h1>
+        <p>Atención personalizada y taller propio</p>
+    </section>
 
-    <footer>
-        <p>© 2024 Audix - Todos los derechos reservados.</p>
+    <section id="nosotros" class="bg-alternativo">
+        <h2>Nosotros</h2>
+        <div class="grid-nosotros">
+            <div class="card">
+                <img src="img/local.jpeg" alt="Local Audix">
+                <h3>Trayectoria</h3>
+                <p>Este es el negocio, llevamos trabajando desde hace muchos años en la salud auditiva.</p>
+            </div>
+            <div class="card">
+                <img src="img/natalia.jpeg" alt="Lic. Natalia Bustos">
+                <h3>Natalia Bustos</h3>
+                <p>Lic. en Fonoaudiología. Especialista en selección de audífonos y diseño de interiores.</p>
+            </div>
+            <div class="card">
+                <img src="img/gaston.jpeg" alt="Ing. Gastón Giordani">
+                <h3>Gastón Giordani</h3>
+                <p>Ingeniero en Electrónica. Encargado del servicio técnico y taller de reparaciones.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-iconos">
+            <a href="https://wa.me/123456789" class="contacto-item">🟢 WhatsApp: 2494...</a>
+            <a href="mailto:info@audix.com.ar" class="contacto-item">📧 info@audix.com.ar</a>
+            <a href="https://maps.google.com" class="contacto-item">📍 Calle Falsa 123, Tandil</a>
+        </div>
+        <p style="margin-top: 40px; opacity: 0.6;">© 2024 Audix Tandil</p>
     </footer>
+
 </body>
 </html>
