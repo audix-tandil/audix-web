@@ -1,0 +1,63 @@
+{
+    "Nosotros" : [
+        {
+            "título" : "Negocio",
+            "descripción" : "Este es el negocio. Ubicado en Alem 1302 (esquina con Pellegrini).",
+            "imágen" : "img/local.jpeg"
+        },
+        {
+            "título" : "Natalia Bustos",
+            "descripción" : "Licenciada en fonoaudiología, cosmetóloga, pastelera, chef, música, etc. El conocimiento esta ahí, solo hay que bajarlo...",
+            "imágen" : "img/natalia.jpeg"
+        },
+        {
+            "título" : "Gastón Giordani",
+            "descripción" : "Ingeniero (dotor) en electrónica, experto comentarista con especialización en energías renovables. El que se equivoca, es por que trabaja. El que no trabaja, no se equivoca...",
+            "imágen" : "img/gaston.jpeg"
+        }
+    ],
+    "Servicios" : [
+        {
+            "título" : "Estudios auditivos",
+            "descripción" : "Realizamos una amplia gama de estudios específicos para evaluar su capacidad auditiva con la mayor precisión tecnológica.",
+            "imágen" : "img/placeholder.png"
+        },
+        {
+            "título" : "Selección y venta de audífonos",
+            "descripción" : "Asesoramiento personalizado para elegir la solución que mejor se adapte a sus necesidades y estilo de vida.",
+            "imágen" : "img/placeholder.png"
+        },
+        {
+            "título" : "Taller de reparaciones",
+            "descripción" : "Servicio técnico propio para el mantenimiento y reparación de audífonos de todas las marcas y modelos.",
+            "imágen" : "img/placeholder.png"
+        },
+        {
+            "título" : "Venta de accesorios para hipoacúsico",
+            "descripción" : "Pilas, filtros, protectores y todo lo necesario para el cuidado diario de sus dispositivos auditivos.",
+            "imágen" : "img/placeholder.png"
+        }
+    ],
+    "Audífonos" : [
+        {
+            "título" : "Audífono 1",
+            "descripción" : "Funciona, siempre y cuando no lo laven, pisen, tiren, coman, pierdan, mojen, condimenten, o le falte pila.",
+            "imágen" : "img/placeholder.png"
+        },
+        {
+            "título" : "Audífono 2",
+            "descripción" : "Funciona, siempre y cuando no lo laven, pisen, tiren, coman, pierdan, mojen, condimenten, o le falte pila.",
+            "imágen" : "img/placeholder.png"
+        },
+        {
+             "título" : "Audífono 3",
+            "descripción" : "Funciona, siempre y cuando no lo laven, pisen, tiren, coman, pierdan, mojen, condimenten, o le falte pila.",
+            "imágen" : "img/placeholder.png"
+        },
+        {
+            "título" : "Audífono 4",
+            "descripción" : "Funciona, siempre y cuando no lo laven, pisen, tiren, coman, pierdan, mojen, condimenten, o le falte pila.",
+            "imágen" : "img/placeholder.png"
+        }
+    ]
+}
