@@ -13,7 +13,7 @@ aunque en un futuro podríamos agregar más. Cada página tiene como _header_ un
 
 La página de bienvenida muestra una foto de bienvenida grande con un texto/frase. Debajo hay un título "Nosotros" y una serie de bloques horizontales formados por una imágen (a la izquierda) y un título y descripción breve (a la derecha). Estos bloques muestran el negocio y los profesionales que trabajan ahí. Las páginas de servicios y audífonos son también una serie de bloques del mismo tipo que antes, cada uno describiendo un servicio o audífono. El footer de contacto es una lista de de datos con logo a la izquierda e información a la derecha, tiene teléfono, mail, whatsapp, instagram, facebook, google maps, etc.
 
-Como prototipo, hicimos un archivo [bloques.json](docs/bloques.json) con la información para mostrar en cada bloque.
+Armamos un archivo [bloques.json](bloques.json) con la información para mostrar en cada bloque, en cada página del sitio. Un archivo .js debería levantar este .json y rellenar el html con la información.
 
 ## Estética
 
