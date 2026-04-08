@@ -64,7 +64,15 @@ header {
   box-shadow: 0 2px 20px rgba(0,0,0,.25);
 }
 
+.logo img {
+  height: 40px; /* ajustá esto a gusto */
+  width: auto;
+  display: block;
+}
+
 .logo {
+  display: flex;
+  align-items: center;
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.7rem;
   font-weight: 700;
@@ -339,6 +347,11 @@ footer {
   max-width: var(--max-ancho);
   margin: 0 auto 3rem;
 }
+.footer-logo img {
+  height: 2em;
+  width: auto;
+  display: block;
+}
 .footer-logo {
   font-family: 'Cormorant Garamond', serif;
   font-size: 2rem;
@@ -370,6 +383,11 @@ footer {
   margin-bottom: 0.85rem;
   transition: color var(--transicion);
 }
+.contacto-item img {
+  width: 1.3em;
+  height: 1.3em;
+  margin-right: 0em;
+}
 .contacto-item:hover { color: var(--blanco); }
 .contacto-item svg {
   flex-shrink: 0;
@@ -385,6 +403,15 @@ footer {
   color: rgba(255,255,255,.3);
   max-width: var(--max-ancho);
   margin: 0 auto;
+}
+.footer-credits {
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-top: 0.3em;
+}
+
+.footer-credits a {
+  text-decoration: underline;
 }
 
 /* ── ANIMACIONES ─────────────────────────────────────────────── */

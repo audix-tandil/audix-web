@@ -32,6 +32,4 @@ Las imágenes deberían er todas del mismo tamaño y ratio.
 - Agregar links a los institutos de fonoaudiología.
 - Agregar testimonios de pacientes satisfechos.
 - Agregar muchas mas fotos del consultorio por dentro.
-- Agregar facebook e instagram en los contactos.
-- Agregar íconos reales de whatsapp, facebook, instagram, maps, etc.
 - Hacer los botones más cuadrados.
