@@ -23,14 +23,11 @@ function crearBloque(item, index) {
          <img src="${item.imágen}" alt="${item.título}" loading="lazy">
        </div>`;
 
-  const numero = String(index + 1).padStart(2, '0');
-
   return `
     <div class="bloque-wrapper fade-in">
       <div class="bloque ${esInvertido}">
         ${imagenHTML}
         <div class="bloque-texto">
-          <span class="bloque-numero">${numero}</span>
           <h3>${item.título}</h3>
           <p>${item.descripción}</p>
         </div>
